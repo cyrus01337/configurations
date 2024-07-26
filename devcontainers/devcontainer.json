@@ -4,7 +4,7 @@
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
     "workspaceFolder": "/workspace",
     "postCreateUser": "node",
-    "postCreateCommand": ".devcontainer/bootstrap.sh",
+    "postCreateCommand": ".devcontainer/bootstrap.sh dependencies husky",
     "customizations": {
         "vscode": {
             "extensions": [],
