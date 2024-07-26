@@ -1,3 +1,4 @@
+// eslint-disable no-console
 import process from "process";
 
 if (
@@ -11,7 +12,6 @@ if (
     process.exit(0);
 }
 
-const husky = (await import("husky")).default;
+const { default: husky } = await import("husky");
 
-// eslint-disable-next-line no-console
 console.log(husky());
