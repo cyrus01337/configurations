@@ -5,5 +5,5 @@ export default {
     plugins: [],
     theme: {
         extends: {},
-    }
+    },
 } satisfies Config;
