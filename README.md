@@ -8,3 +8,9 @@ externally in whatever project depends on this.
 
 It's a thought experiment because I don't know if this is going to be fruitful,
 so I'll be trying this out then documenting my findings here.
+
+If there happens to be a configuration that doesn't quite line up with a
+project's needs, then I'll just copy it directly and modify as needed. Not
+all configurations present are intended to be used in one project or for them
+to be used as is, they're just templates with enough sensible defaults to work
+for my use cases.
