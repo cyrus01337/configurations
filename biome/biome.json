@@ -24,7 +24,11 @@
             "attributePosition": "auto",
             "bracketSameLine": false,
             "bracketSpacing": true,
+            "indentStyle": "space",
+            "indentWidth": 4,
             "jsxQuoteStyle": "double",
+            "lineEnding": "lf",
+            "lineWidth": 100,
             "quoteProperties": "asNeeded",
             "quoteStyle": "double",
             "semicolons": "always",
@@ -35,5 +39,10 @@
         "enabled": false
     },
     "organizeImports": { "enabled": true },
-    "overrides": [{ "include": ["*.astro"] }]
+    "overrides": [{ "include": ["*.astro"] }],
+    "vcs": {
+        "enabled": true,
+        "clientKind": "git",
+        "defaultBranch": "main"
+    }
 }
