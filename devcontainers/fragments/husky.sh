@@ -3,4 +3,6 @@ set -e
 
 package_manager="$1"
 
-$package_manager prepare
+if [ ! -d .husky/_ ]; then
+    $package_manager prepare
+fi
