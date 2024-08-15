@@ -16,5 +16,5 @@
         "target": "ESNext"
     },
     "exclude": [".astro/", "build/", "dist/", "node_modules/"],
-    "include": ["./*.cjs", "./*.js", "./*.mjs", "./*.ts", "./src/**/*"]
+    "include": ["src/**/*", "*.{cjs,js,mjs,ts}", "*.d.ts"]
 }
