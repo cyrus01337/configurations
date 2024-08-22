@@ -12,7 +12,11 @@
         "",
         "<TYPES>"
     ],
-    "importOrderParserPlugins": ["typescript", "jsx", "importAssertions"],
+    "importOrderParserPlugins": [
+        "typescript",
+        "jsx",
+        "importAssertions"
+    ],
     "jsonRecursiveSort": true,
     "plugins": [
         "@ianvs/prettier-plugin-sort-imports",
