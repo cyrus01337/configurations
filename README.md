@@ -1,4 +1,5 @@
 # Configurations
+
 This is a house for as many common configurations as possible that I've had to
 write out a dozen times, which fatigues me very quickly in a working day. It's
 also a thought experiment that I'm trying where I consolidate as much as
@@ -16,11 +17,13 @@ to be used as is, they're just templates with enough sensible defaults to work
 for my use cases.
 
 ### Setup
+
 This project is intended to be used as a submodule for continuous updates. To
 add it to a project:
+
 ```sh
 git submodule add https://github.com/cyrus01337/configurations.git external/configurations
 ```
+
 Then any configuration can be referenced when running commands, using CLI tools
 or symlinked for direct reference if needed.
-

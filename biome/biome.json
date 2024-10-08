@@ -41,8 +41,8 @@
     "organizeImports": { "enabled": true },
     "overrides": [{ "include": ["*.astro"] }],
     "vcs": {
-        "enabled": true,
         "clientKind": "git",
-        "defaultBranch": "main"
+        "defaultBranch": "main",
+        "enabled": true
     }
 }

@@ -1,15 +1,15 @@
 {
-    "name": "Devcontainer",
-    "dockerFile": "Dockerfile",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
-    "workspaceFolder": "/workspace",
-    "postCreateUser": "node",
-    "postCreateCommand": ".devcontainer/bootstrap.sh dependencies husky",
     "customizations": {
         "vscode": {
             "extensions": [],
             "settings": {}
         }
     },
-    "features": {}
+    "dockerFile": "Dockerfile",
+    "features": {},
+    "name": "Devcontainer",
+    "postCreateCommand": ".devcontainer/bootstrap.sh dependencies husky",
+    "postCreateUser": "node",
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
 }

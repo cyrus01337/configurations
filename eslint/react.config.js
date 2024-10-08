@@ -1,9 +1,8 @@
-import globals from "globals";
-
 import javascript from "@eslint/js";
 import prettier from "eslint-config-prettier";
 import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
+import globals from "globals";
 import typescript from "typescript-eslint";
 
 export default typescript.config(

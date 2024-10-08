@@ -1,14 +1,12 @@
 {
-    "name": "Next App Boilerplate",
-    "image": "cyrus01337/next-app-boilerplate:development",
-    "runArgs": [
-        "--privileged"
-    ],
-    "workspaceFolder": "/workspace",
-    "remoteUser": "next",
-    "postCreateUser": "next",
-    "postCreateCommand": ".devcontainer/setup.sh",
     "features": {
         "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
-    }
+    },
+    "image": "cyrus01337/next-app-boilerplate:development",
+    "name": "Next App Boilerplate",
+    "postCreateCommand": ".devcontainer/setup.sh",
+    "postCreateUser": "next",
+    "remoteUser": "next",
+    "runArgs": ["--privileged"],
+    "workspaceFolder": "/workspace"
 }

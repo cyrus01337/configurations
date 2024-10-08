@@ -1,10 +1,4 @@
 {
-    "*.{ts,astro}": [
-        "biome format --write --skip-errors --no-errors-on-unmatched --changed --since=main --log-level=none",
-        "biome lint --write --unsafe --skip-errors --no-errors-on-unmatched --changed --since=main --log-level=none",
-        "eslint",
-        "tsc-files"
-    ],
     "*.{js,mjs,cjs}": [
         "biome format --write --skip-errors --no-errors-on-unmatched --changed --since=main --log-level=none",
         "biome lint --write --unsafe --skip-errors --no-errors-on-unmatched --changed --since=main --log-level=none",
@@ -12,5 +6,11 @@
     ],
     "*.{json,md}": [
         "biome format --write --skip-errors --no-errors-on-unmatched --changed --since=main --log-level=none"
+    ],
+    "*.{ts,astro}": [
+        "biome format --write --skip-errors --no-errors-on-unmatched --changed --since=main --log-level=none",
+        "biome lint --write --unsafe --skip-errors --no-errors-on-unmatched --changed --since=main --log-level=none",
+        "eslint",
+        "tsc-files"
     ]
 }
