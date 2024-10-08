@@ -5,7 +5,7 @@ export BUN_INSTALL="/home/next/.bun"
 export PATH="$PATH:$BUN_INSTALL/bin"
 
 bun install
-bun pm trust --all || true
+bun pm trust --all || true 2> /dev/null
 
 if [ ! -d .husky/_ ]; then
     bun run prepare
