@@ -1,0 +1,14 @@
+{
+    "name": "Astro App Boilerplate",
+    "dockerFile": "Dockerfile",
+    "runArgs": [
+        "--privileged"
+    ],
+    "workspaceFolder": "/workspace",
+    "remoteUser": "astro",
+    "postCreateUser": "astro",
+    "postCreateCommand": ".devcontainer/setup.sh",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+    }
+}
