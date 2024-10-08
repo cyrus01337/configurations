@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-export BUN_INSTALL="/home/next/.bun"
+export BUN_INSTALL="$HOME/.bun"
 export PATH="$PATH:$BUN_INSTALL/bin"
 
 bun install
