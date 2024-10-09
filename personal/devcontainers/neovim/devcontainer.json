@@ -1,7 +1,0 @@
-{
-    "dockerFile": "Dockerfile",
-    "name": "Neovim",
-    "postCreateUser": "neovim",
-    "remoteUser": "neovim",
-    "workspaceFolder": "/workspace"
-}
