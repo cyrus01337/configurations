@@ -3,10 +3,10 @@
 .next/
 .pnp.*
 .yarn/
+README.md
 build/
 bun.lockb
 coverage/
 dist/
-pnpm-lock.yaml
 external/
-
+pnpm-lock.yaml
